@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="en">
    
-<!-- Mirrored from iqonic.design/themes/Logo/html/chat.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Jan 2021 09:57:10 GMT -->
+<!-- Mirrored from iqonic.design/themes/Logo/html/horizontal-top-menu.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Jan 2021 10:02:57 GMT -->
 <head>
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>Logo - Responsive Bootstrap 4 Admin Dashboard Template</title>
-      <!-- Favicon -->
       <link rel="shortcut icon" href="images/favicon.ico" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -17,9 +16,18 @@
       <link rel="stylesheet" href="css/style.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="css/responsive.css">
-      <link rel="stylesheet" href="css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+      <!-- Full calendar -->
+      <link href='fullcalendar/core/main.css' rel='stylesheet' />
+      <link href='fullcalendar/daygrid/main.css' rel='stylesheet' />
+      <link href='fullcalendar/timegrid/main.css' rel='stylesheet' />
+      <link href='fullcalendar/list/main.css' rel='stylesheet' />
+
+      <link rel="stylesheet" href="../../../../cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+
    </head>
-   <body>
+   <body class="top-tab-horizontal">
       <!-- loader Start -->
       <div id="loading">
          <div id="loading-center">
@@ -28,59 +36,23 @@
       <!-- loader END -->
       <!-- Wrapper Start -->
       <div class="wrapper">
-         <!-- Sidebar  -->
-         <div class="iq-sidebar">
-            <div class="iq-sidebar-logo d-flex justify-content-between">
-               <a href="index.html">
-               <img src="images/logo.gif" class="img-fluid" alt="">
-               <span>Logo</span>
-               </a>
-               <div class="iq-menu-bt-sidebar">
-                     <div class="iq-menu-bt align-self-center">
-                        <div class="wrapper-menu">
-                           <div class="main-circle"><i class="ri-arrow-left-s-line"></i></div>
-                           <div class="hover-circle"><i class="ri-arrow-right-s-line"></i></div>
-                        </div>
-                     </div>
-                  </div>
-            </div>
-            <div id="sidebar-scrollbar">
-               <nav class="iq-sidebar-menu">
-                <ul id="iq-sidebar-toggle" class="iq-menu">
-                  <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>Dashboard</span></li>
-                  <li >
-                     <a href="index.html" class="iq-waves-effect"><i class="ri-home-4-line"></i><span>Dashboard </span></a>
-                  </li>
-              
-               
-                  <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>Apps</span></li>
-                
-                  <li><a href="calendar.html" class="iq-waves-effect"><i class="ri-calendar-2-line"></i><span>Calendar</span></a></li>
-                  <li><a href="chat.html" class="iq-waves-effect"><i class="ri-message-line"></i><span>Chat</span></a></li>
-                  <li class="active"><a href="user-list.html" class="iq-waves-effect"><i class="ri-user-line"></i><span>Attended user</span></a></li>
-              
-               </ul>
-               </nav>
-               <div class="p-3"></div>
-            </div>
-         </div>
-         <!-- TOP Nav Bar -->
-         <div class="iq-top-navbar">
-            <div class="iq-navbar-custom">
-               <div class="iq-sidebar-logo">
-                  <div class="top-logo">
-                     <a href="index.html" class="logo">
-                     <!-- <img src="images/logo.gif" class="img-fluid" alt=""> -->
-                     <span>Logo</span>
-                     </a>
-                  </div>
-               </div>
-               <nav class="navbar navbar-expand-lg navbar-light p-0">
-                  <div class="navbar-left">
-
-          
-               </div>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-label="Toggle navigation">
+               <!-- TOP Nav Bar -->
+               <div class="iq-top-navbar">
+                  <div class="top-menu">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-sm-12">
+                           <div class="iq-navbar-custom-menu d-flex align-items-center justify-content-between">
+                              <div class="iq-sidebar-logo">
+                                 <div class="top-logo">
+                                    <a href="index.html" class="logo">
+                                    <img src="images/logo.png" class="img-fluid" alt="">
+                                    <span>Logo</span>
+                                    </a>
+                                 </div>
+                              </div>
+                              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="ri-menu-3-line"></i>
                   </button>
                   <div class="iq-menu-bt align-self-center">
@@ -89,26 +61,59 @@
                         <div class="hover-circle"><i class="ri-arrow-right-s-line"></i></div>
                      </div>
                   </div>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    
-                  </div>
+           
                   <ul class="navbar-list">
-                      <li>
-                        <a href="#" class="search-toggle iq-waves-effect d-flex align-items-center bg-primary rounded">
+                     <li>
+                        <a href="#" class="search-toggle iq-waves-effect d-flex align-items-center">
                            <img src="images/user/1.jpg" class="img-fluid rounded mr-3" alt="user">
                            <div class="caption">
-                              <h6 class="mb-0 line-height text-white">Trainer</h6>
-                              <span class="font-size-12 text-white">Available</span>
+                              <h6 class="mb-0 line-height">Trainer</h6>
+                              <span class="font-size-12">Available</span>
                            </div>
                         </a>
-                   
+
+
+                  
                      </li>
                   </ul>
                </nav>
-               
-
-            </div>
-         </div>
+                           </div>
+                        </div>
+                        </div>
+                     </div>
+                  </div>
+                   <div class="tab-menu-horizontal">
+                     <div class="container">
+                        <div class="row ml-lg-5">      
+                           <div class="iq-menu-horizontal-tab ml-lg-5">
+                              <nav class="iq-sidebar-menu">                     
+                              <ul id="iq-sidebar-toggle" class="iq-menu d-flex justify-content-left">
+                                 <li>
+                                    <a href="index.html"><i class="ri-home-4-line"></i><span>Home</span></a>
+                                    
+                                 </li>
+                                 <li class="active">
+                                    <a href="chat.html" ><i class="ri-menu-3-line"></i><span>Video</span></a>
+                                  
+                                 </li>
+                                 <li>
+                                    <a href="user-list.html"><i class="ri-home-4-line"></i><span>Attended</span></a>
+                                    
+                                 </li>
+                                 <li class="active">
+                                    <a href="#menu-design" ><i class="ri-menu-3-line"></i><span>Menu</span></a>
+                                  
+                                 </li>
+                                
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </nav>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
       <!-- TOP Nav Bar END -->
       <!-- Page Content  -->
    <div id="content-page" class="content-page">

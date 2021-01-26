@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="en">
    
-<!-- Mirrored from iqonic.design/themes/Logo/html/chat.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Jan 2021 09:57:10 GMT -->
+<!-- Mirrored from iqonic.design/themes/Logo/html/horizontal-top-menu.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Jan 2021 10:02:57 GMT -->
 <head>
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>Logo - Responsive Bootstrap 4 Admin Dashboard Template</title>
-      <!-- Favicon -->
       <link rel="shortcut icon" href="images/favicon.ico" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -17,9 +16,18 @@
       <link rel="stylesheet" href="css/style.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="css/responsive.css">
-      <link rel="stylesheet" href="css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+      <!-- Full calendar -->
+      <link href='fullcalendar/core/main.css' rel='stylesheet' />
+      <link href='fullcalendar/daygrid/main.css' rel='stylesheet' />
+      <link href='fullcalendar/timegrid/main.css' rel='stylesheet' />
+      <link href='fullcalendar/list/main.css' rel='stylesheet' />
+
+      <link rel="stylesheet" href="../../../../cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+
    </head>
-   <body>
+   <body class="top-tab-horizontal">
       <!-- loader Start -->
       <div id="loading">
          <div id="loading-center">
@@ -28,59 +36,23 @@
       <!-- loader END -->
       <!-- Wrapper Start -->
       <div class="wrapper">
-         <!-- Sidebar  -->
-         <div class="iq-sidebar">
-            <div class="iq-sidebar-logo d-flex justify-content-between">
-               <a href="index.html">
-               <img src="images/logo.gif" class="img-fluid" alt="">
-               <span>Logo</span>
-               </a>
-               <div class="iq-menu-bt-sidebar">
-                     <div class="iq-menu-bt align-self-center">
-                        <div class="wrapper-menu">
-                           <div class="main-circle"><i class="ri-arrow-left-s-line"></i></div>
-                           <div class="hover-circle"><i class="ri-arrow-right-s-line"></i></div>
-                        </div>
-                     </div>
-                  </div>
-            </div>
-            <div id="sidebar-scrollbar">
-               <nav class="iq-sidebar-menu">
-                <ul id="iq-sidebar-toggle" class="iq-menu">
-                  <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>Dashboard</span></li>
-                  <li>
-                     <a href="index.html" class="iq-waves-effect"><i class="ri-home-4-line"></i><span>Dashboard </span></a>
-                  </li>
-              
-               
-                  <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>Apps</span></li>
-                
-                  <li><a href="calendar.html" class="iq-waves-effect"><i class="ri-calendar-2-line"></i><span>Calendar</span></a></li>
-                  <li class="active"><a href="chat.html" class="iq-waves-effect"><i class="ri-message-line"></i><span>Chat</span></a></li>
-                  <li><a href="user-list.html" class="iq-waves-effect"><i class="ri-user-line"></i><span>Attended user</span></a></li>
-              
-               </ul>
-               </nav>
-               <div class="p-3"></div>
-            </div>
-         </div>
-         <!-- TOP Nav Bar -->
-         <div class="iq-top-navbar">
-            <div class="iq-navbar-custom">
-               <div class="iq-sidebar-logo">
-                  <div class="top-logo">
-                     <a href="index.html" class="logo">
-                     <!-- <img src="images/logo.gif" class="img-fluid" alt=""> -->
-                     <span>Logo</span>
-                     </a>
-                  </div>
-               </div>
-               <nav class="navbar navbar-expand-lg navbar-light p-0">
-                  <div class="navbar-left">
-
-          
-               </div>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-label="Toggle navigation">
+               <!-- TOP Nav Bar -->
+               <div class="iq-top-navbar">
+                  <div class="top-menu">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-sm-12">
+                           <div class="iq-navbar-custom-menu d-flex align-items-center justify-content-between">
+                              <div class="iq-sidebar-logo">
+                                 <div class="top-logo">
+                                    <a href="index.html" class="logo">
+                                    <img src="images/logo.png" class="img-fluid" alt="">
+                                    <span>Logo</span>
+                                    </a>
+                                 </div>
+                              </div>
+                              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="ri-menu-3-line"></i>
                   </button>
                   <div class="iq-menu-bt align-self-center">
@@ -89,26 +61,59 @@
                         <div class="hover-circle"><i class="ri-arrow-right-s-line"></i></div>
                      </div>
                   </div>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    
-                  </div>
+           
                   <ul class="navbar-list">
-                      <li>
-                        <a href="#" class="search-toggle iq-waves-effect d-flex align-items-center bg-primary rounded">
+                     <li>
+                        <a href="#" class="search-toggle iq-waves-effect d-flex align-items-center">
                            <img src="images/user/1.jpg" class="img-fluid rounded mr-3" alt="user">
                            <div class="caption">
-                              <h6 class="mb-0 line-height text-white">Trainer</h6>
-                              <span class="font-size-12 text-white">Available</span>
+                              <h6 class="mb-0 line-height">Nik jone</h6>
+                              <span class="font-size-12">Available</span>
                            </div>
                         </a>
-                   
+
+
+                  
                      </li>
                   </ul>
                </nav>
-               
-
-            </div>
-         </div>
+                           </div>
+                        </div>
+                        </div>
+                     </div>
+                  </div>
+                   <div class="tab-menu-horizontal">
+                     <div class="container">
+                        <div class="row ml-lg-5">      
+                           <div class="iq-menu-horizontal-tab ml-lg-5">
+                              <nav class="iq-sidebar-menu">                     
+                              <ul id="iq-sidebar-toggle" class="iq-menu d-flex justify-content-left">
+                                 <li>
+                                    <a href="index.html"><i class="ri-home-4-line"></i><span>Home</span></a>
+                                    
+                                 </li>
+                                 <li class="active">
+                                    <a href="chat.html" ><i class="ri-menu-3-line"></i><span>Video</span></a>
+                                  
+                                 </li>
+                                 <li>
+                                    <a href="user-list.html"><i class="ri-home-4-line"></i><span>Attended</span></a>
+                                    
+                                 </li>
+                                 <li class="active">
+                                    <a href="#menu-design" ><i class="ri-menu-3-line"></i><span>Menu</span></a>
+                                  
+                                 </li>
+                                
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </nav>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
          <!-- TOP Nav Bar END -->
          <!-- Page Content  -->
          <div id="content-page" class="content-page">
@@ -119,28 +124,118 @@
                         <div class="iq-card-body chat-page p-0">
                            <div class="chat-data-block">
                            <div class="row">
-                             
-
-                              <div class="col-lg-12 chat-data p-0 chat-data-right">
-                                 <div class="tab-content">
-                                    <div class="tab-pane fade active show" id="default-block" role="tabpanel">
-                                       <div class="chat-start">
-                                            <img src="img.jpg"   class="user-img" style="width: 100%; height: 100%;">
-                                           
-                                         </video>
-                                         <div class="user-video p-lg-1 mb-lg-5 flex align-items-center list-user-action">
-                                         <ul class="ftco-video-social list-unstyled float-md-left float-lft mt-3 ">
-                                          <li class=""><a href="#"><span class="fa fa-phone"></span></a></li>
-                                          <li class=""><a href="#"><span class="fa fa-user-plus"></span></a></li>
-                                          <li class=""><a href="#"><span class="fa fa-microphone-slash"></span></a></li>
-                                          <li class=""><a href="#" ><span class="fa fa-user"></span></a></li>
-                                        </ul>
-                                       
+                              <div class="col-lg-3 chat-data-left scroller " >
+                                 <div class="chat-search pt-3 pl-3">
+                                    <div class="d-flex align-items-center">
+                                       <div class="chat-profile mr-3">
+                                          <img src="images/user/1.jpg" alt="chat-user" class="avatar-60 ">
+                                       </div>
+                                       <div class="chat-caption">
+                                          <h5 class="mb-0">Nik Jordan</h5>
+                                          <p class="m-0">Web Designer</p>
+                                       </div>
+                                       <button type="submit" class="close-btn-res p-3"><i class="ri-close-fill"></i></button>
+                                    </div>
+                                    <div id="user-detail-popup" class="scroller">
+                                       <div class="user-profile">
+                                          <button type="submit" class="close-popup p-3"><i class="ri-close-fill"></i></button>
+                                          <div class="user text-center mb-4">
+                                           <a class="avatar m-0">
+                                             <img src="images/user/1.jpg" alt="avatar">
+                                           </a>
+                                         <div class="user-name mt-4"><h4>Nik Jordan</h4></div>
+                                         <div class="user-desc"><p>Web Designer</p></div>
+                                         </div>
+                                         <hr>
+                                         <div class="user-detail text-left mt-4 pl-4 pr-4">
+                                             <h5 class="mt-4 mb-4">About</h5>
+                                             <p>It is long established fact that a reader will be distracted bt the reddable.</p>
+                                             <h5 class="mt-3 mb-3">Status</h5>
+                                             <ul class="user-status p-0">
+                                                <li class="mb-1"><i class="ri-checkbox-blank-circle-fill text-success pr-1"></i><span>Online</span></li>
+                                                <li class="mb-1"><i class="ri-checkbox-blank-circle-fill text-warning pr-1"></i><span>Away</span></li>
+                                                <li class="mb-1"><i class="ri-checkbox-blank-circle-fill text-danger pr-1"></i><span>Do Not Disturb</span></li>
+                                                <li class="mb-1"><i class="ri-checkbox-blank-circle-fill text-light pr-1"></i><span>Offline</span></li>
+                                             </ul>
+                                         </div>
                                       </div>
+                                   </div>
+                                    <div class="chat-searchbar mt-4">
+                                          <div class="form-group chat-search-data m-0">
+                                             <input type="text" class="form-control round" id="chat-search" placeholder="Search">
+                                             <i class="ri-search-line"></i>
+                                          </div>
+                                       </div>
+                                 </div>
+
+                                 <div class="iq-card">
+                                    <div class="iq-card-header d-flex justify-content-between">
+                                       <div class="iq-header-title">
+                                          <h4 class="card-title">Start Your video call</h4>
                                        </div>
                                     </div>
+                                    <div class="iq-card-body">
+                                       <p>Feel these input and generate the code other users to use</p>
+                                       <form>
+                                          <div class="form-group">
+                                             <label for="exampleInputText1">Name </label>
+                                             <input type="text" class="form-control" id="exampleInputText1" value="Mark Jhon" placeholder="Enter Name">
+                                          </div>
+                                         
+                                          <div class="form-group">
+                                             <label for="exampleInputurl">Url Input</label>
+                                             <input type="url" class="form-control" id="exampleInputurl" value="https://getbootstrap.com" placeholder="Enter Url">
+                                          </div>
+                                          <div class="form-group">
+                                             <label for="exampleInputphone">Teliphone Input</label>
+                                             <input type="tel" class="form-control" id="exampleInputphone" value="1-(555)-555-5555">
+                                          </div>
+                                          <div class="form-group">
+                                             <label for="exampleFormControlFile1">Upload file</label>
+                                             <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                          </div>
+                                          <div class="form-group">
+                                             <div class="custom-file">
+                                                <input type="file" class="custom-file-input" id="customFile">
+                                                <label class="custom-file-label" for="customFile">Choose file</label>
+                                             </div>
+                                          </div>
+                                        
+                                          <button type="submit" class="btn btn-primary">Generate code</button>
+                                          <button type="submit" class="btn iq-bg-danger">cancle</button>
+                                       </form>
+                                    </div>
                                  </div>
+                               
                               </div>
+
+                              <div class="col-lg-9 chat-data p-0 chat-data-right" >
+                                 <div class="tab-content" >
+                                    <div class="tab-pane fade active show" id="default-block" role="tabpanel">
+                                       <div class="chat-start">
+                                         
+                                          <video  src=""  id="video-elements" autoplay >
+                                             <span class="iq-start-icon text-primary"><i class="ri-video-line"></i></span>
+                                          </video>
+                                          <!-- <button id="chat-start" class="btn bg-white" >Start
+                                             Conversation!</button> -->
+                                             
+                                             
+                                       </div>
+                                       <div class="user-video  flex align-items-center list-user-action" style="margin-top:-5.5em ;" id="user-icons">
+                                          <ul class="ftco-video-social list-unstyled float-md-left float-lft mt-3 ">
+                                           <li class=""><a href="#"><span class="fa fa-phone"></span></a></li>
+                                           <li class=""><a href="#"><span class="fa fa-user-plus"></span></a></li>
+                                           <li class=""><a href="#"><span class="fa fa-microphone-slash"></span></a></li>
+                                           <li class=""><a href="#" ><span class="fa fa-user"></span></a></li>
+                                         </ul>
+                                 </div>
+                                    
+                                          
+                              </div>
+                              </div>
+
+
                            </div>
                         </div>
                         </div>
@@ -168,6 +263,15 @@
          </div>
       </footer>
       <!-- Footer END -->
+      <script>
+        let video=document.querySelector("#video-elements");
+        if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia){
+           navigator.mediaDevices.getUserMedia({video: true}).then(stream =>{
+              video.srcObject = stream;
+              video.play();
+           }) 
+        }
+      </script>
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="js/jquery.min.js"></script>

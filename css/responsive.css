@@ -193,9 +193,7 @@
 	.chat-sidebar-channel .avatar > img{height: 40px; width: 40px;}
 	.chat-sidebar-name > h6 {font-size: 14px;}
 	.chat-sidebar-name span{font-size: 12px;}
-	.user-img{
-		width: 100vh; height: 100%;
-	}
+
 	}
 }
 @media(max-width:1199px) {
@@ -209,6 +207,9 @@
 	.sign-in-detail { padding: 100px 50px; }
 }
 @media(max-width:991px) {
+	#user-icons {
+		margin-left: 32.4%;
+	}
 	.an-img-two .bodymovin { display: none; }
 	.display-1 { font-size: 4rem; font-weight: 300; }
 	.display-2 { font-size: 3.5rem; font-weight: 300; }
@@ -264,6 +265,9 @@
 	.iq-circle-progressbar { margin: 0 auto; width: 200px !important; height: 200px !important; }
 }
 @media(max-width:767px) {
+	#user-icons {
+		margin-left: 25%;
+	}
 	.table { width: 100%; max-width: 100%; margin-bottom: 1rem; display: block; overflow-x: auto; }
 	.display-1 { font-size: 2.5rem; font-weight: 500; }
 	.display-2 { font-size: 2.3rem; font-weight: 500; }
