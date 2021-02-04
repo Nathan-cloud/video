@@ -1,36 +1,3 @@
-/*
-Template: Vito - Responsive Bootstrap 4 Admin Dashboard Template
-Author: iqonicthemes.in
-Design and Developed by: iqonicthemes.in
-NOTE: This file contains the styling for responsive Template.
-*/
-
-/*================================================
-[  Table of contents  ]
-================================================
-
-:: Font
-:: Import Css
-:: General
-:: Input
-:: Loading
-:: Background Color
-:: Background Color Opacity
-:: Text Color
-:: Line Height
-:: Font Size
-:: Avatar Size
-:: Margin Bottom
-:: Card
-:: Background overlay color
-:: Buttons
-:: Alert
-:: list Group
-:: Grid Boxes
-
-======================================
-[ End table content ]
-======================================*/
 
 /*---------------------------------------------------------------------
 Font
@@ -61,13 +28,13 @@ import Css
 /*---------------------------------------------------------------------
 General
 -----------------------------------------------------------------------*/
-*::-moz-selection { background: var(--iq-primary); color: var(--iq-white); text-shadow: none; }
-::-moz-selection { background: var(--iq-primary); color: var(--iq-white); text-shadow: none; }
-::selection { background: var(--iq-primary); color: var(--iq-white); text-shadow: none; }
+*::-moz-selection { background: #00a1de; color: var(--iq-white); text-shadow: none; }
+::-moz-selection { background: #00a1de; color: var(--iq-white); text-shadow: none; }
+::selection { background: #00a1de; color: var(--iq-white); text-shadow: none; }
 body { font-family: 'Muli', sans-serif; font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.8; padding: 0; margin: 0; color: var(--iq-body-text); background: var(--iq-body-bg); }
 a, .btn { -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
 a, button, input, btn { outline: medium none !important; }
-a { color: var(--iq-primary); }
+a { color: #00a1de; }
 .uppercase { text-transform: uppercase; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Muli', sans-serif; font-weight: 400; margin: 0px; line-height: 1.5; color: var(--iq-dark); }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
@@ -87,7 +54,7 @@ Input
 .rounded-circle { border-radius: 50% !important; }
 label { color: var(--iq-dark); }
 .form-control { height: 45px; line-height: 45px; background: transparent; border: 1px solid var(--iq-dark-border); font-size: 14px; color: var(--iq-secondary); border-radius: 10px; }
-.form-control:focus { color: var(--iq-dark); border-color: var(--iq-primary); box-shadow: none; }
+.form-control:focus { color: var(--iq-dark); border-color: #00a1de; box-shadow: none; }
 .form-control-sm { height: 30px; line-height: 30px; }
 .form-control-lg { height: 50px; line-height: 50px; }
 
@@ -216,7 +183,7 @@ loading
 /*----------------------------------------------
 Background Color
 ------------------------------------------------*/
-.bg-primary, .badge-primary { color: var(--iq-white); background: var(--iq-primary) !important; background: -moz-linear-gradient(left, var(--iq-primary) 0%, var(--iq-primary-light) 100%) !important; background: -webkit-gradient(left top, right top, color-stop(0%, var(--iq-primary)), color-stop(100%, var(--iq-primary-light))) !important; background: -webkit-linear-gradient(left, var(--iq-primary) 0%, var(--iq-primary-light) 100%) !important; background: -o-linear-gradient(left, var(--iq-primary) 0%, var(--iq-primary-light) 100%) !important; background: -ms-linear-gradient(left, var(--iq-primary) 0%, var(--iq-primary-light) 100%) !important; background: linear-gradient(to right, var(--iq-primary) 0%, var(--iq-primary-light) 100%) !important; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--iq-primary)', endColorstr='var(--iq-primary-light)', GradientType=1) !important; }
+.bg-primary, .badge-primary { color: var(--iq-white); background: #00a1de !important; }
 .bg-secondary, .badge-secondary { color: var(--iq-white); background-color: var(--iq-secondary) !important; }
 .bg-success, .badge-success { color: var(--iq-white); background: var(--iq-success-dark); background: -moz-linear-gradient(left, var(--iq-success-dark) 0%, var(--iq-success) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, var(--iq-success-dark)), color-stop(100%, var(--iq-success))); background: -webkit-linear-gradient(left, var(--iq-success-dark) 0%, var(--iq-success) 100%); background: -o-linear-gradient(left, var(--iq-success-dark) 0%, var(--iq-success) 100%); background: -ms-linear-gradient(left, var(--iq-success-dark) 0%, var(--iq-success) 100%); background: linear-gradient(to right, var(--iq-success-dark) 0%, var(--iq-success) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--iq-success-dark)', endColorstr='var(--iq-success-light)', GradientType=1); }
 .bg-danger, .badge-danger { color: var(--iq-white); background: var(--iq-danger-dark); background: -moz-linear-gradient(left, var(--iq-danger-dark) 0%, var(--iq-danger) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, var(--iq-danger-dark)), color-stop(100%, var(--iq-danger))); background: -webkit-linear-gradient(left, var(--iq-danger-dark) 0%, var(--iq-danger) 100%); background: -o-linear-gradient(left, var(--iq-danger-dark) 0%, var(--iq-danger) 100%); background: -ms-linear-gradient(left, var(--iq-danger-dark) 0%, var(--iq-danger) 100%); background: linear-gradient(to right, var(--iq-danger-dark) 0%, var(--iq-danger) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--iq-danger-dark)', endColorstr='var(--iq-danger-light)', GradientType=1); }
@@ -237,7 +204,7 @@ Custom Background Color
 /*----------------------------------------------
 Background Color Opacity
 ------------------------------------------------*/
-.iq-bg-primary { background: rgba(130, 122, 243, 0.2); background: -moz-linear-gradient(left, rgba(130, 122, 243, 0.2) 0%, rgba(180, 122, 243, 0.2) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(130, 122, 243, 0.2)), color-stop(100%, rgba(180, 122, 243, 0.2))); background: -webkit-linear-gradient(left, rgba(130, 122, 243, 0.2) 0%, rgba(180, 122, 243, 0.2) 100%); background: -o-linear-gradient(left, rgba(130, 122, 243, 0.2) 0%, rgba(180, 122, 243, 0.2) 100%); background: -ms-linear-gradient(left, rgba(130, 122, 243, 0.2) 0%, rgba(180, 122, 243, 0.2) 100%); background: linear-gradient(to right, rgba(130, 122, 243, 0.2) 0%, rgba(180, 122, 243, 0.2) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--iq-primary)', endColorstr='var(--iq-primary-light)', GradientType=1); color: var(--iq-primary) !important; }
+.iq-bg-primary { background: rgba(130, 122, 243, 0.2); background: -moz-linear-gradient(left, rgba(130, 122, 243, 0.2) 0%, rgba(180, 122, 243, 0.2) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(130, 122, 243, 0.2)), color-stop(100%, rgba(180, 122, 243, 0.2))); background: -webkit-linear-gradient(left, rgba(130, 122, 243, 0.2) 0%, rgba(180, 122, 243, 0.2) 100%); background: -o-linear-gradient(left, rgba(130, 122, 243, 0.2) 0%, rgba(180, 122, 243, 0.2) 100%); background: -ms-linear-gradient(left, rgba(130, 122, 243, 0.2) 0%, rgba(180, 122, 243, 0.2) 100%); background: linear-gradient(to right, rgba(130, 122, 243, 0.2) 0%, rgba(180, 122, 243, 0.2) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00a1de', endColorstr='var(--iq-primary-light)', GradientType=1); color: #00a1de !important; }
 .iq-bg-secondary { background: var(--iq-light-secondary) !important; color: var(--iq-secondary) !important; }
 .iq-bg-success { background: var(--iq-light-success) !important; color: var(--iq-success) !important; }
 .iq-bg-danger { background: var(--iq-light-danger) !important; color: var(--iq-danger) !important; }
@@ -257,7 +224,7 @@ Background Color Opacity
 /*----------------------------------------------
 Text Color
 ------------------------------------------------*/
-.text-primary { color: var(--iq-primary) !important; }
+.text-primary { color: #00a1de !important; }
 .text-secondary { color: var(--iq-secondary) !important; }
 .text-success { color: var(--iq-success) !important; }
 .text-danger { color: var(--iq-danger) !important; }
@@ -331,14 +298,14 @@ Card
 
 /*--------------*/
 .nav-pills .nav-item a { color: var(--iq-dark); }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link { color: var(--iq-primary); background: var(--iq-light-primary); }
-.nav-pills .nav-link:hover { color: var(--iq-primary); }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link { color: #00a1de; background: var(--iq-light-primary); }
+.nav-pills .nav-link:hover { color: #00a1de; }
 
 /*--------------*/
 .nav-tabs { border-bottom: 2px solid var(--iq-light-border); margin-bottom: 15px; }
 .nav-tabs .nav-item { margin-bottom: -2px; }
 .nav-tabs .nav-item a { color: var(--iq-dark); border: none; border-bottom: 2px solid transparent; }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active { border-bottom: 2px solid var(--iq-primary); color: var(--iq-primary); }
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active { border-bottom: 2px solid #00a1de; color: #00a1de; }
 
 /*---------------------------------------------------------------------
 Background overlay color
@@ -367,7 +334,7 @@ Buttons
 .iq-sign-btn:hover { color: var(--iq-white); background: var(--iq-danger); }
 
 /*--------------*/
-.btn-primary { background: var(--iq-primary); background: -moz-linear-gradient(left, var(--iq-primary) 0%, var(--iq-primary-light) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, var(--iq-primary)), color-stop(100%, var(--iq-primary-light))); background: -webkit-linear-gradient(left, var(--iq-primary) 0%, var(--iq-primary-light) 100%); background: -o-linear-gradient(left, var(--iq-primary) 0%, var(--iq-primary-light) 100%); background: -ms-linear-gradient(left, var(--iq-primary) 0%, var(--iq-primary-light) 100%); background: linear-gradient(to right, var(--iq-primary) 0%, var(--iq-primary-light) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#827af3', endColorstr='#b47af3', GradientType=1); border-color: var(--iq-primary); }
+.btn-primary { background: #00a1de; background: -moz-linear-gradient(left, #00a1de 0%, var(--iq-primary-light) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, #00a1de), color-stop(100%, var(--iq-primary-light))); background: -webkit-linear-gradient(left, #00a1de 0%, var(--iq-primary-light) 100%); background: -o-linear-gradient(left, #00a1de 0%, var(--iq-primary-light) 100%); background: -ms-linear-gradient(left, #00a1de 0%, var(--iq-primary-light) 100%); background: linear-gradient(to right, #00a1de 0%, var(--iq-primary-light) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#827af3', endColorstr='#b47af3', GradientType=1); border-color: #00a1de; }
 .btn-secondary { background-color: var(--iq-secondary); border-color: var(--iq-secondary); }
 .btn-success { background-color: var(--iq-success); border-color: var(--iq-success); }
 .btn-danger { background-color: var(--iq-danger); border-color: var(--iq-danger); }
@@ -377,8 +344,8 @@ Buttons
 .btn-dark { background-color: var(--iq-dark); border-color: var(--iq-dark); }
 
 /*--------------*/
-.btn-primary:hover { background: var(--iq-primary-light); background: -moz-linear-gradient(left, var(--iq-primary-light) 0%, var(--iq-primary) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, var(--iq-primary-light)), color-stop(100%, var(--iq-primary))); background: -webkit-linear-gradient(left, var(--iq-primary-light) 0%, var(--iq-primary) 100%); background: -o-linear-gradient(left, var(--iq-primary-light) 0%, var(--iq-primary) 100%); background: -ms-linear-gradient(left, var(--iq-primary-light) 0%, var(--iq-primary) 100%); background: linear-gradient(to right, var(--iq-primary-light) 0%, var(--iq-primary) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b47af3', endColorstr='#827af3', GradientType=1); border-color: var(--iq-primary); border-color: var(--iq-primary); }
-a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover { background: var(--iq-primary-light) !important; background: -moz-linear-gradient(left, var(--iq-primary-light) 0%, var(--iq-primary) 100%) !important; background: -webkit-gradient(left top, right top, color-stop(0%, var(--iq-primary-light)), color-stop(100%, var(--iq-primary))); background: -webkit-linear-gradient(left, var(--iq-primary-light) 0%, var(--iq-primary) 100%) !important; background: -o-linear-gradient(left, var(--iq-primary-light) 0%, var(--iq-primary) 100%) !important; background: -ms-linear-gradient(left, var(--iq-primary-light) 0%, var(--iq-primary) 100%) !important; background: linear-gradient(to right, var(--iq-primary-light) 0%, var(--iq-primary) 100%) !important; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b47af3', endColorstr='#827af3', GradientType=1); border-color: var(--iq-primary); border-color: var(--iq-primary); }
+.btn-primary:hover { background: var(--iq-primary-light); background: -moz-linear-gradient(left, var(--iq-primary-light) 0%, #00a1de 100%); background: -webkit-gradient(left top, right top, color-stop(0%, var(--iq-primary-light)), color-stop(100%, #00a1de)); background: -webkit-linear-gradient(left, var(--iq-primary-light) 0%, #00a1de 100%); background: -o-linear-gradient(left, var(--iq-primary-light) 0%, #00a1de 100%); background: -ms-linear-gradient(left, var(--iq-primary-light) 0%, #00a1de 100%); background: linear-gradient(to right, var(--iq-primary-light) 0%, #00a1de 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b47af3', endColorstr='#827af3', GradientType=1); border-color: #00a1de; border-color: #00a1de; }
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover { background: var(--iq-primary-light) !important; background: -moz-linear-gradient(left, var(--iq-primary-light) 0%, #00a1de 100%) !important; background: -webkit-gradient(left top, right top, color-stop(0%, var(--iq-primary-light)), color-stop(100%, #00a1de)); background: -webkit-linear-gradient(left, var(--iq-primary-light) 0%, #00a1de 100%) !important; background: -o-linear-gradient(left, var(--iq-primary-light) 0%, #00a1de 100%) !important; background: -ms-linear-gradient(left, var(--iq-primary-light) 0%, #00a1de 100%) !important; background: linear-gradient(to right, var(--iq-primary-light) 0%, #00a1de 100%) !important; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b47af3', endColorstr='#827af3', GradientType=1); border-color: #00a1de; border-color: #00a1de; }
 
 /*------------------*/
 .btn-primary.focus, .btn-primary:focus{background-color: var(--iq-primary-hover);border-color: var(--iq-primary-hover);}
@@ -392,7 +359,7 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 
 
 /*----------------*/
-.btn-primary.disabled, .btn-primary:disabled { color: var(--iq-white); background-color: var(--iq-primary); border-color: var(--iq-primary); }
+.btn-primary.disabled, .btn-primary:disabled { color: var(--iq-white); background-color: #00a1de; border-color: #00a1de; }
 .btn-secondary.disabled, .btn-secondary:disabled { color: var(--iq-white); background-color: var(--iq-secondary); border-color: var(--iq-secondary); }
 .btn-success.disabled, .btn-success:disabled {color:var(--iq-white); background-color: var(--iq-success); border-color: var(--iq-success); }
 .btn-danger.disabled, .btn-danger:disabled { color:var(--iq-white); background-color: var(--iq-danger); border-color: var(--iq-danger); }
@@ -403,7 +370,7 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 
 
 /*----------------*/
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle { color: var(--iq-white); background-color: var(--iq-primary); border-color: var(--iq-secondary); }
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle { color: var(--iq-white); background-color: #00a1de; border-color: var(--iq-secondary); }
 .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle { color: var(--iq-white); background-color: var(--iq-secondary); border-color: var(--iq-secondary); }
 .btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle { color: var(--iq-white); background-color: var(--iq-success); border-color: var(--iq-secondary); }
 .btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled):active, .show>.btn-danger.dropdown-toggle { color: var(--iq-white); background-color: var(--iq-danger); border-color: var(--iq-secondary); }
@@ -414,7 +381,7 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 
 /*----------------*/
 
-.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle{ background-color: var(--iq-primary); border-color: var(--iq-primary);}
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle{ background-color: #00a1de; border-color: #00a1de;}
 .btn-outline-secondary:not(:disabled):not(.disabled).active, .btn-outline-secondary:not(:disabled):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle{ background-color: var(--iq-secondary); border-color: var(--iq-secondary);}
 .btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle{ background-color: var(--iq-success); border-color: var(--iq-success);}
 .btn-outline-danger:not(:disabled):not(.disabled).active, .btn-outline-danger:not(:disabled):not(.disabled):active, .show>.btn-outline-danger.dropdown-toggle{ background-color: var(--iq-danger); border-color: var(--iq-danger);}
@@ -424,7 +391,8 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 .btn-outline-dark:not(:disabled):not(.disabled).active, .btn-outline-dark:not(:disabled):not(.disabled):active, .show>.btn-outline-dark.dropdown-toggle{ background-color: var(--iq-dark); border-color: var(--iq-dark);}
 
 /*--------------*/
-.btn-outline-primary { color: var(--iq-primary); border-color: var(--iq-primary); }
+.btn-outline-primary { color: #00a1de;height: 50px; padding: 0.5em; width: 150px; font-size: 15px; border-color: #00a1de; }
+
 .btn-outline-secondary { color: var(--iq-secondary); border-color: var(--iq-secondary); }
 .btn-outline-success { color: var(--iq-success); border-color: var(--iq-success); }
 .btn-outline-danger { color: var(--iq-danger); border-color: var(--iq-danger); }
@@ -434,7 +402,7 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 .btn-outline-dark { color: var(--iq-dark); border-color: var(--iq-dark); }
 
 /*------------------*/
-.btn-outline-primary:hover { color: var(--iq-white); background-color: var(--iq-primary); border-color: var(--iq-primary); }
+.btn-outline-primary:hover { color: var(--iq-white); background-color: #00a1de; border-color: #00a1de; }
 .btn-outline-secondary:hover { color: var(--iq-white); background-color: var(--iq-secondary); border-color: var(--iq-secondary); }
 .btn-outline-success:hover { color: var(--iq-white); background-color: var(--iq-success); border-color: var(--iq-success); }
 .btn-outline-danger:hover { color: var(--iq-white); background-color: var(--iq-danger); border-color: var(--iq-danger); }
@@ -444,7 +412,7 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 .btn-outline-dark:hover { color: var(--iq-white); background-color: var(--iq-dark); border-color: var(--iq-dark); }
 
 /*----------------*/
-.btn-outline-primary.disabled, .btn-outline-primary:disabled { color: var(--iq-primary); background-color: transparent; }
+.btn-outline-primary.disabled, .btn-outline-primary:disabled { color: #00a1de; background-color: transparent; }
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled { color: var(--iq-secondary); background-color: transparent; }
 .btn-outline-success.disabled, .btn-outline-success:disabled { color: var(--iq-success); background-color: transparent; }
 .btn-outline-danger.disabled, .btn-outline-danger:disabled { color: var(--iq-danger); background-color: transparent; }
@@ -456,7 +424,7 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 /*----------------------------------------------
 Alert
 ------------------------------------------------*/
-.alert-primary { color: var(--iq-primary); border-color: var(--iq-primary); background-color: var(--iq-bg-light-color); }
+.alert-primary { color: #00a1de; border-color: #00a1de; background-color: var(--iq-bg-light-color); }
 .alert-secondary { color: var(--iq-secondary); border-color: var(--iq-secondary); background-color: var(--iq-light-secondary); }
 .alert-success { color: var(--iq-success-dark); border-color: var(--iq-success-dark); background-color: var(--iq-light-success); }
 .alert-danger { color: var(--iq-danger-dark); border-color: var(--iq-danger-dark); background-color: var(--iq-light-danger); }
@@ -476,7 +444,7 @@ Alert
 /*----------------------------------------------
 list Group
 ------------------------------------------------*/
-.list-group-item-primary { background-color: var(--iq-light-primary); color: var(--iq-primary); }
+.list-group-item-primary { background-color: var(--iq-light-primary); color: #00a1de; }
 .list-group-item-secondary { color: var(--iq-secondary); background-color: var(--iq-light-secondary); }
 .list-group-item-success { color: var(--iq-success); background-color: var(--iq-light-success); }
 .list-group-item-danger { color: var(--iq-danger); background-color: var(--iq-light-danger); }
@@ -485,7 +453,7 @@ list Group
 .list-group-item-light { color: var(--iq-secondary); background-color: var(--iq-light); }
 .list-group-item-dark { color: var(--iq-dark); background-color: var(--iq-light-dark); }
 .list-group-item-action { color: var(--iq-dark); }
-.list-group-item.active { background-color: var(--iq-primary); border-color: var(--iq-primary); }
+.list-group-item.active { background-color: #00a1de; border-color: #00a1de; }
 
 /*----------------------------------------------
 Grid Boxes

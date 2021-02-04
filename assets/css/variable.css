@@ -9,9 +9,9 @@ Variable
   --iq-bg-dark-bg: #6d73f6; 
   --iq-bg-light-color: #efeefd;
   --iq-bg-dark-color: #1d203f;
-  --iq-primary: #827af3;
-  --iq-primary-light: #b47af3;
-  --iq-primary-dark: #6B69D2;
+  --iq-primary: #00a1de;
+  --iq-primary-light:#00a1de;
+  --iq-primary-dark: #00a1de;
   --iq-secondary: #a09e9e;
   --iq-secondary-light: #c1c1c1;
   --iq-secondary-dark: #7d7d7d;
@@ -44,8 +44,8 @@ Variable
   --iq-spring-green: #1be1b3;
   --iq-amber: #f4b72a;
   --iq-pink: #FD6C9E;
-  --iq-blue-dark: #5a61fd;
-  --iq-blue-light: #858afb;
+  --iq-blue-dark: #00a1de;
+  --iq-blue-light: #00a1de;
   --iq-color-light: #edf3ff;
   --iq-progress-light: #eef1f7;
   --iq-light-border: #f2edff;
