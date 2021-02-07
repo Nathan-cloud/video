@@ -19,6 +19,7 @@
 
      
 
+    
 
 
    </head>
@@ -65,6 +66,7 @@
                                        <a href="group-chat.html" class="text-white" ><i class="fa fa-group"></i><span>Group chat</span></a>
                                      
                                     </li>
+                                   
                                             
                                         
                                        </ul>
@@ -227,17 +229,41 @@
                                  <div class="tab-content" >
                                     <div class="tab-pane fade active show" id="default-block" role="tabpanel">
                                        <div class="chat-start">
+                                          <div class="row">
+                                             <div class="col-md-6">
+                                                <video  src=""   id="video-elements-1"  >
+                                                   
+                                                  
+                                                </video>     
+      
+                                             </div>
+                                             <div class="col-md-6">
+                                                <video  src=""  id="video-elements-2" autoplay >
+                                                 
+                                                  
+                                                </video>     
+
+                                             </div>
+                                          </div>
+                                          <div class="row">
+                                             <div class="col-md-6">
+                                                <video  src=""  id="video-elements-3" autoplay >
+                                                   
+                                                  
+                                                </video>     
+      
+                                             </div>
+                                             <div class="col-md-6">
+                                                <video  src=""  id="video-elements-4" autoplay >
+                                                 
+                                                  
+                                                </video>     
+
+                                             </div>
+                                          </div>
                                      
                                          
-                                          <video  src=""  id="video-elements" autoplay >
-                                             <span class="iq-start-icon text-primary"><i class="ri-video-line"></i></span>
-                                            
-                                          </video>
-                                          <video src="" id="video-elements-1" class="user-vid"  ></video>
-
-                                          <!-- <button id="chat-start" class="btn bg-white" >Start
-                                             Conversation!</button> -->
-                                             
+                                       
                                              
                                        </div>
                                        <div class="user-video  flex align-items-center list-user-action " style="margin-top:-5.5em ;" id="user-icons">
@@ -307,18 +333,32 @@
        </footer>
       <!-- Footer END -->
       <script>
-        let video=document.querySelector("#video-elements");
-        if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia){
-           navigator.mediaDevices.getUserMedia({video: true}).then(stream =>{
-              video.srcObject = stream;
-              video.play();
-           }) 
-        }
         let video_1=document.querySelector("#video-elements-1");
         if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia){
            navigator.mediaDevices.getUserMedia({video: true}).then(stream =>{
               video_1.srcObject = stream;
               video_1.play();
+           }) 
+        }
+        let video_2=document.querySelector("#video-elements-2");
+        if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia){
+           navigator.mediaDevices.getUserMedia({video: true}).then(stream =>{
+            video_2.srcObject = stream;
+            video_2.play();
+           }) 
+        }
+        let video_3=document.querySelector("#video-elements-3");
+        if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia){
+           navigator.mediaDevices.getUserMedia({video: true}).then(stream =>{
+              video_3.srcObject = stream;
+              video_3.play();
+           }) 
+        }
+        let video_4=document.querySelector("#video-elements-4");
+        if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia){
+           navigator.mediaDevices.getUserMedia({video: true}).then(stream =>{
+              video_4.srcObject = stream;
+              video_4.play();
            }) 
         }
       </script>

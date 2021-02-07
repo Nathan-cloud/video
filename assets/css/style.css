@@ -396,10 +396,19 @@ body.sidebar-main .iq-sidebar:hover .iq-sidebar-menu .iq-menu li a span, body.si
 #user-icons{
   margin-left: 41%;
 }
+.chat-start .user-vid{
+  width: 150px;
+  margin-right:89%;
+margin-top:-25%;
+border: 3px solid #fff;
+  
+}
 
 .chat-start video{
   width:100%;
   height: 100%;
+  
+ 
 
 }
 
