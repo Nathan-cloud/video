@@ -1,237 +1,1197 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-   
-<!-- Mirrored from iqonic.design/themes/Logo/html/horizontal-top-menu.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Jan 2021 10:02:57 GMT -->
-<head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Logo - Responsive Bootstrap 4 Admin Dashboard Template</title>
-      <link rel="shortcut icon" href="assets/images/favicon.ico" />
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-      <!-- Typography CSS -->
-      <link rel="stylesheet" href="assets/css/typography.css">
-      <!-- Style CSS -->
-      <link rel="stylesheet" href="assets/css/style.css">
-      <!-- Responsive CSS -->
-      <link rel="stylesheet" href="assets/css/responsive.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Ask And Get</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap 4.5 -->
+    <link
+      rel="stylesheet"
+      href="/assets/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <!-- animate -->
+    <link rel="stylesheet" href="/assets/css/animate.css" type="text/css" />
+    <!-- Swiper -->
+    <link rel="stylesheet" href="/assets/css/swiper.min.css" />
+    <!-- icons -->
+    <link rel="stylesheet" href="/assets/css/icons.css" type="text/css" />
+    <!-- aos -->
+    <link rel="stylesheet" href="/assets/css/aos.css" type="text/css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="/assets/css/main.css" type="text/css" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="/assets/css/normalize.css" type="text/css" />
+  </head>
 
+  <body>
+    <div id="wrapper">
+      <div id="content">
+        <!-- Start header -->
+        <header class="header-nav-center active-blue" id="myNavbar">
+          <div class="container">
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light px-sm-0">
+              <a class="navbar-brand" href="../../index.html">
+                <img class="logo" src="../../assets/img/logo.png" alt="logo" />
+              </a>
 
+              <button
+                class="navbar-toggler menu ripplemenu"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <svg viewBox="0 0 64 48">
+                  <path
+                    d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"
+                  ></path>
+                  <path
+                    d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"
+                  ></path>
+                  <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+                </svg>
+              </button>
 
-   </head>
-   <body class="top-tab-horizontal">
-      <!-- loader Start -->
-      <div id="loading">
-         <div id="loading-center">
-         </div>
-      </div>
-      <!-- loader END -->
-      <!-- Wrapper Start -->
-      <div class="wrapper">
-               <!-- TOP Nav Bar -->
-               <div class="iq-top-navbar">
-                  <div class="top-menu">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-sm-12">
-                           <div class="iq-navbar-custom-menu d-flex align-items-center justify-content-between">
-                              <div class="iq-sidebar-logo">
-                                 <div class="top-logo">
-                                    <a href="index.html" class="logo">
-                                    <img src="assets/images/logo.png" class="img-fluid" width="" alt="">
-                                    <span></span>
-                                    </a>
-                                 </div>
-                              </div>
-                              <div class="iq-menu-horizontal">
-                                 <nav class="iq-sidebar-menu">
-                                 <ul id="iq-sidebar-toggle" class="iq-menu d-flex">
-                                    <li>
-                                       <a href="index.html" class="text-white"><i class="ri-home-4-line"></i><span >Home</span></a>
-                                       
-                                    </li>
-                                    <li class="active">
-                                       <a href="chat.html"class="text-white" ><i class="ri-menu-3-line"></i><span>Video</span></a>
-                                     
-                                    </li>
-                                    <li>
-                                       <a href="user-list.html" class="text-white"><i class="ri-home-4-line"></i><span>Attended</span></a>
-                                       
-                                    </li>
-                                    <li class="active">
-                                       <a href="group-chat.html" class="text-white" ><i class="fa fa-group"></i><span>Group chat</span></a>
-                                     
-                                    </li>
-                                   
-                                            
-                                        
-                                       </ul>
-                                    </li>
-                                 </ul>
-                              </nav>
-                              </div>
-                              <nav class="navbar navbar-expand-lg navbar-light p-0">
-                 
-                  <div class="iq-menu-bt align-self-center" >
-                     <div class="wrapper-menu">
-                        <div class="main-circle"><i class="ri-arrow-left-s-line"></i></div>
-                        <div class="hover-circle"><i class="ri-arrow-right-s-line"></i></div>
-                     </div>
-                  </div>
-           
-                  <ul class="navbar-list">
-                    <li class="p-2">
-                       <a href="#" class="btn btn-outline-primary btn-sm ">Online Register</a>
-                    </li>
-                    <li class="p-2">
-                     <a href="#" class="btn btn-outline-primary btn-sm ">Online Class</a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Products">About Us</a>
                   </li>
-                  </ul>
-               </nav>
-                           </div>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Features">Steps</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Features">Services</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Features">recommended</a>
+                  </li>
+                </ul>
+                <div class="nav_account btn_demo2">
+                  <a
+                    href="#"
+                    class="btn btn_sm_primary effect-letter rounded-8"
+                  >
+                    Sign Up
+                  </a>
+                </div>
+              </div>
+            </nav>
+            <!-- End Navbar -->
+          </div>
+          <!-- end container -->
+        </header>
+        <!-- End header -->
+
+        <!-- Stat main -->
+        <main data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+          <!-- Start Banner Section -->
+          <section class="demo_1 banner_section banner_demo8 demo__charity">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-lg-5 order-2 order-lg-1 my-auto">
+                  <div class="banner_title">
+                    <h1>
+                      Together <br />
+                      We Can Change The World
+                    </h1>
+                    <p>
+                      Indigenous communities are on the front lines of some of
+                      the biggest environmental challenges—it’s time to start
+                      listening to them.
+                    </p>
+                    <div class="nav_account btn_demo3">
+                      <a
+                        href="#"
+                        class="
+                          btn btn_sm_primary
+                          border-0
+                          sweep_letter sweep_top
+                          bg-lightgreen
+                          c-white
+                          rounded-pill
+                        "
+                      >
+                        <div class="inside_item">
+                          <span data-hover="Let's go 👋">Sign Up Now</span>
                         </div>
-                        </div>
-                     </div>
+                      </a>
+                    </div>
                   </div>
-                   <div class="tab-menu-horizontal">
-                     <div class="container">
-                        <div class="row ">      
-                           <div class="iq-menu-horizontal-tab ">
-                              <nav class="iq-sidebar-menu">                     
-                              <ul id="" class="iq-menu d-flex justify-content-left p-2">
-                                 <li>
-                                    <a href="index.html"><i class="ri-home-4-line"></i><span>Home</span></a>
-                                    
-                                 </li>
-                                 <li >
-                                    <a href="chat.html" ><i class="ri-menu-3-line"></i><span>Video</span></a>
-                                  
-                                 </li>
-                                 <li>
-                                    <a href="user-list.html"><i class="ri-home-4-line"></i><span>Attended</span></a>
-                                    
-                                 </li>
-                                 <li>
-                                    <a href="user-list.html" ><i class="ri-menu-3-line"></i><span>Menu</span></a>
-                                  
-                                 </li>
-                                
-                                    </ul>
-                                 </li>
-                              </ul>
-                           </nav>
-                           </div>
-                        </div>
-                     </div>
+                </div>
+                <div class="col-lg-7 mx-auto order-1 order-lg-1">
+                  <div class="ill_appMobile">
+                    <img class="img-fluid" src="/assets/img/app/user.svg" />
                   </div>
-               </div>
-         <!-- TOP Nav Bar END -->
-         <!-- TOP Nav Bar END -->
-         <!-- Page Content  -->
-         <div id="content-page" class="content-page">
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Banner -->
+
+          <!-- Section save__nature -->
+          <section
+            class="services_section save__nature margin-t-12 pt-5"
+            style="padding-top: 100px"
+          >
+            <div class="container">
+              <div class="row justify-content-center text-center">
+                <div class="col-md-8 col-lg-5">
+                  <div class="title_sections">
+                    <div class="before_title">
+                      <span>Conserving</span>
+                      <span class="c-lightgreen">Nature</span>
+                    </div>
+                    <h2>Want to get product for yourself</h2>
+                    <p>
+                      Conserving nature and its benefits is an imperative, not a
+                      luxury. Join the many people who support our conservation
+                      efforts around the globe.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 item__nature">
+                  <div
+                    class="items_serv sevice_block text-center"
+                    data-aos="fade-up"
+                    data-aos-delay="0"
+                  >
+                    <div class="icon--top">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="21.575"
+                        height="21.574"
+                        viewBox="0 0 21.575 21.574"
+                      >
+                        <g
+                          id="Group_6278"
+                          data-name="Group 6278"
+                          transform="translate(-3.596 -3.596)"
+                        >
+                          <path
+                            id="Mask"
+                            d="M12.794,12.589a4.794,4.794,0,1,1,4.794-4.794A4.794,4.794,0,0,1,12.794,12.589Z"
+                            transform="translate(1.588 0.596)"
+                            fill="#fff"
+                            opacity="0.3"
+                          />
+                          <path
+                            id="Mask-Copy"
+                            d="M3,21.629C3.465,15.908,8.108,13,13.768,13c5.739,0,10.454,2.749,10.8,8.63a.823.823,0,0,1-.9.959H3.872A1.327,1.327,0,0,1,3,21.629Z"
+                            transform="translate(0.596 2.581)"
+                            fill="#fff"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="txt">
+                      <h3>Register on the platform</h3>
+
+                      <p>
+                        members provide us with the core financial support we
+                        need to fulfill our mission.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 item__nature active">
+                  <div
+                    class="items_serv sevice_block text-center"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="icon--top">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="23.39"
+                        height="17.026"
+                        viewBox="0 0 23.39 17.026"
+                      >
+                        <g id="money" transform="translate(0.195 -3.487)">
+                          <path
+                            id="Combined-Shape-Copy"
+                            d="M2,6H21a1,1,0,0,1,1,1V17a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V7A1,1,0,0,1,2,6Zm9.5,10a4,4,0,1,0-4-4A4,4,0,0,0,11.5,16Z"
+                            transform="matrix(0.966, 0.259, -0.259, 0.966, 3.498, -2.567)"
+                            fill-rule="evenodd"
+                            opacity="0.3"
+                          />
+                          <path
+                            id="Combined-Shape"
+                            d="M2,6H21a1,1,0,0,1,1,1V17a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V7A1,1,0,0,1,2,6Zm9.5,10a4,4,0,1,0-4-4A4,4,0,0,0,11.5,16Zm0-2a2,2,0,1,0-2-2A2,2,0,0,0,11.5,14Z"
+                            fill-rule="evenodd"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="txt">
+                      <h3>Tell us What you Want</h3>
+                      <p>
+                        members provide us with the core financial support we
+                        need to fulfill our mission.
+                      </p>
+                    </div>
+                    <a
+                      href="#"
+                      class="
+                        btn btn_md_primary
+                        sweep_top sweep_letter
+                        btn__link
+                        rounded-pill
+                      "
+                    >
+                      <div class="inside_item">
+                        <span data-hover="Order">Order</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 item__nature">
+                  <div
+                    class="items_serv sevice_block text-center"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <div class="icon--top">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="22.293"
+                        height="26.833"
+                        viewBox="0 0 22.293 26.833"
+                      >
+                        <g
+                          id="Group_6279"
+                          data-name="Group 6279"
+                          transform="translate(-3.094 -0.605)"
+                        >
+                          <path
+                            id="Path-36-Copy-2"
+                            d="M3.647,17.894Q-3.647,5.674,3.647,0,10.643,5.674,3.647,17.894Z"
+                            transform="translate(18.229 16.103) rotate(150)"
+                            fill="#fff"
+                            fill-rule="evenodd"
+                            opacity="0.3"
+                          />
+                          <path
+                            id="Path-36-Copy-3"
+                            d="M3.647,0q-7.294,12.22,0,17.894Q10.643,12.22,3.647,0Z"
+                            transform="translate(19.199 0.605) rotate(30)"
+                            fill="#fff"
+                            fill-rule="evenodd"
+                            opacity="0.3"
+                          />
+                          <path
+                            id="Path-36"
+                            d="M12.59,1q-7.294,12.22,0,17.894Q19.586,13.22,12.59,1Z"
+                            transform="translate(1.726 0.193)"
+                            fill="#fff"
+                            fill-rule="evenodd"
+                            opacity="0.3"
+                          />
+                          <path
+                            id="Rectangle-71"
+                            d="M6.537,13H20.032a1.193,1.193,0,0,1,1.143,1.536l-2.608,8.693a2.386,2.386,0,0,1-2.285,1.7H10.288A2.386,2.386,0,0,1,8,23.229L5.394,14.536A1.193,1.193,0,0,1,6.537,13Z"
+                            transform="translate(1.031 2.509)"
+                            fill="#fff"
+                            fill-rule="evenodd"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="txt">
+                      <h3>We get it for you</h3>
+                      <p>
+                        members provide us with the core financial support we
+                        need to fulfill our mission.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End. save__nature -->
+
+          <!-- Start section__priorities -->
+          <section class="section__priorities padding-t-12" id="Priorities">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-7">
+                  <div
+                    class="illustration_pro"
+                    data-aos="fade-up"
+                    data-aos-delay="0"
+                  >
+                    <img class="img-fluid" src="/assets/img/charity/ch2.svg" />
+                  </div>
+                </div>
+                <div class="col-lg-4 ml-auto">
+                  <div class="title_sections">
+                    <div class="before_title">
+                      <span>Our</span>
+                      <span class="c-lightgreen">Priorities</span>
+                    </div>
+                    <h2>Place and People to make you comforable</h2>
+                    <p>
+                      We work to meet this ambitious goal by focusing on these
+                      key areas of conservation.
+                    </p>
+                  </div>
+                  <div class="point__item">
+                    <div class="row">
+                      <div
+                        class="col-md-6 item__ico"
+                        data-aos="fade-up"
+                        data-aos-delay="0"
+                      >
+                        <div class="icon__ch">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21.5"
+                            height="23.585"
+                            viewBox="0 0 21.5 23.585"
+                          >
+                            <g
+                              id="_01"
+                              data-name="01"
+                              transform="translate(-943 -2486.387)"
+                            >
+                              <path
+                                id="Combined-Shape"
+                                d="M11.906,22.119a1,1,0,1,1-1.225.707A1,1,0,0,1,11.906,22.119Zm4,0a1,1,0,1,1-1.225.707A1,1,0,0,1,15.906,22.119Zm-8,0a1,1,0,1,1-1.225.707A1,1,0,0,1,7.906,22.119ZM13,15a4,4,0,1,1,4-4A4,4,0,0,1,13,15Zm7.5-5.5H22a1.5,1.5,0,0,1,0,3H20.5a1.5,1.5,0,0,1,0-3ZM17.061,4.871l1.061-1.061a1.5,1.5,0,1,1,2.121,2.121L19.182,6.993a1.5,1.5,0,1,1-2.121-2.121ZM13,.5A1.5,1.5,0,0,1,14.5,2V3.5a1.5,1.5,0,0,1-3,0V2A1.5,1.5,0,0,1,13,.5ZM5.811,3.811a1.5,1.5,0,0,1,2.121,0L8.993,4.871A1.5,1.5,0,1,1,6.871,6.993L5.811,5.932A1.5,1.5,0,0,1,5.811,3.811Z"
+                                transform="translate(941 2485.887)"
+                                fill="#0b2238"
+                                fill-rule="evenodd"
+                                opacity="0.3"
+                              />
+                              <path
+                                id="Combined-Shape-2"
+                                data-name="Combined-Shape"
+                                d="M4.747,19.043A6,6,0,1,1,13.811,12.5H16.25a3.75,3.75,0,0,1,0,7.5h-9A3.736,3.736,0,0,1,4.747,19.043Z"
+                                transform="translate(941 2485.887)"
+                                fill="#0b2238"
+                                fill-rule="evenodd"
+                              />
+                            </g>
+                          </svg>
+                        </div>
+                        <h3>Tackle Climate Change</h3>
+                      </div>
+                      <div
+                        class="col-md-6 item__ico"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                      >
+                        <div class="icon__ch">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21"
+                            height="15.5"
+                            viewBox="0 0 21 15.5"
+                          >
+                            <g
+                              id="_02"
+                              data-name="02"
+                              transform="translate(-1.5 -4.5)"
+                            >
+                              <path
+                                id="Combined-Shape"
+                                d="M8,16a4,4,0,0,1,8,0ZM4,18H20a1,1,0,0,1,0,2H4a1,1,0,0,1,0-2Z"
+                                fill="#0b2238"
+                              />
+                              <path
+                                id="Oval"
+                                d="M19.5,13H21a1.5,1.5,0,0,1,0,3H19.5a1.5,1.5,0,0,1,0-3ZM16.061,8.871l1.061-1.061a1.5,1.5,0,1,1,2.121,2.121l-1.061,1.061a1.5,1.5,0,1,1-2.121-2.121ZM3,13H4.5a1.5,1.5,0,0,1,0,3H3a1.5,1.5,0,0,1,0-3Zm9-8.5A1.5,1.5,0,0,1,13.5,6V7.5a1.5,1.5,0,0,1-3,0V6A1.5,1.5,0,0,1,12,4.5ZM4.811,7.811a1.5,1.5,0,0,1,2.121,0L7.993,8.871a1.5,1.5,0,1,1-2.121,2.121L4.811,9.932A1.5,1.5,0,0,1,4.811,7.811Z"
+                                fill="#0b2238"
+                                opacity="0.3"
+                              />
+                            </g>
+                          </svg>
+                        </div>
+                        <h3>Protect Land & Water</h3>
+                      </div>
+                      <div
+                        class="col-md-6 item__ico"
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                      >
+                        <div class="icon__ch">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="20"
+                            viewBox="0 0 14 20"
+                          >
+                            <g
+                              id="_03"
+                              data-name="03"
+                              transform="translate(-5 -2)"
+                            >
+                              <path
+                                id="Oval-2"
+                                d="M12,19a7,7,0,0,0,7-7q0-3.866-7-10Q5,8.134,5,12A7,7,0,0,0,12,19Z"
+                                fill="#0b2238"
+                                fill-rule="evenodd"
+                                opacity="0.3"
+                              />
+                              <rect
+                                id="Rectangle"
+                                width="2"
+                                height="11"
+                                rx="1"
+                                transform="translate(11 11)"
+                                fill="#0b2238"
+                              />
+                            </g>
+                          </svg>
+                        </div>
+                        <h3>Provide Food & Water</h3>
+                      </div>
+                      <div
+                        class="col-md-6 item__ico"
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                      >
+                        <div class="icon__ch">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="18"
+                            height="17.328"
+                            viewBox="0 0 18 17.328"
+                          >
+                            <path
+                              id="_04"
+                              data-name="04"
+                              d="M3.957,8.415l7.521-4.6a1,1,0,0,1,1.043,0l7.521,4.6A2,2,0,0,1,21,10.122V19a2,2,0,0,1-2,2H5a2,2,0,0,1-2-2V10.122A2,2,0,0,1,3.957,8.415ZM10,13a1,1,0,0,0-1,1v3a1,1,0,0,0,1,1h4a1,1,0,0,0,1-1V14a1,1,0,0,0-1-1Z"
+                              transform="translate(-3 -3.672)"
+                              fill="#0b2238"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                        </div>
+                        <h3>Build Healthy Cities</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End. section__priorities -->
+
+          <!-- Start section__stories -->
+          <section class="section__stories padding-t-12" id="Stories">
+            <div class="container">
+              <div class="swip__stories">
+                <!-- Swiper -->
+                <div class="swiper-container feature_strories">
+                  <div class="title_sections">
+                    <h2>Awesome Featured</h2>
+                  </div>
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a href="#" class="item">
+                        <div class="img__nature">
+                          <img src="/assets/img/charity/005.jpg" />
+                        </div>
+                        <div class="inf__txt">
+                          <span>Forests</span>
+                          <h3>Siting Wind Right for Wildlife</h3>
+                          <time>Jul 06, 2020</time>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="item">
+                        <div class="img__nature">
+                          <img src="/assets/img/charity/004.jpg" />
+                        </div>
+                        <div class="inf__txt">
+                          <span>Food</span>
+                          <h3>Siting Wind Right for Wildlife</h3>
+                          <time>Jul 06, 2020</time>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="item">
+                        <div class="img__nature">
+                          <img src="/assets/img/charity/006.jpg" />
+                        </div>
+                        <div class="inf__txt">
+                          <span>Climate Change</span>
+                          <h3>Siting Wind Right for Wildlife</h3>
+                          <time>Jul 06, 2020</time>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="item">
+                        <div class="img__nature">
+                          <img src="/assets/img/charity/007.jpg" />
+                        </div>
+                        <div class="inf__txt">
+                          <span>Animals</span>
+                          <h3>Siting Wind Right for Wildlife</h3>
+                          <time>Jul 06, 2020</time>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="item">
+                        <div class="img__nature">
+                          <img src="/assets/img/charity/005.jpg" />
+                        </div>
+                        <div class="inf__txt">
+                          <span>Forests</span>
+                          <h3>Siting Wind Right for Wildlife</h3>
+                          <time>Jul 06, 2020</time>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="item">
+                        <div class="img__nature">
+                          <img src="/assets/img/charity/004.jpg" />
+                        </div>
+                        <div class="inf__txt">
+                          <span>Food</span>
+                          <h3>Siting Wind Right for Wildlife</h3>
+                          <time>Jul 06, 2020</time>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="item">
+                        <div class="img__nature">
+                          <img src="/assets/img/charity/006.jpg" />
+                        </div>
+                        <div class="inf__txt">
+                          <span>Climate Change</span>
+                          <h3>Siting Wind Right for Wildlife</h3>
+                          <time>Jul 06, 2020</time>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="item">
+                        <div class="img__nature">
+                          <img src="/assets/img/charity/007.jpg" />
+                        </div>
+                        <div class="inf__txt">
+                          <span>Animals</span>
+                          <h3>Siting Wind Right for Wildlife</h3>
+                          <time>Jul 06, 2020</time>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- Add Arrows -->
+                  <div class="swiper-button-next">
+                    <i class="tio chevron_right"></i>
+                  </div>
+                  <div class="swiper-button-prev">
+                    <i class="tio chevron_left"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End. section__stories -->
+
+          <!-- Start stories__customers -->
+          <section
+            class="stories__customers py-0 mb-0 margin-t-12 bg-white mb-5"
+          >
+            <div class="container">
+              <div class="row justify-content-center text-center">
+                <div class="col-lg-5">
+                  <div class="title_sections">
+                    <div class="before_title">
+                      <span>Popular </span>
+                      <span class="c-lightgreen">Tour Guide</span>
+                    </div>
+
+                    <p>
+                      Choose Your Tour Guider to help you luxury. Join the many
+                      people who support our conservation efforts around the
+                      globe.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="container-fluid">
-               <div class="row">
-                <div class="col-md-6 col-lg-6">
-                    <div class="iq-card iq-card-block iq-card-stretch iq-card-height" style="background: transparent;">
-                       <div class="iq-card-body rounded p-0" style="background: url(assets/images/page-img/02.jpg) no-repeat;    background-size: cover; height: 423px;">
-                         <div class="iq-caption">
-                            <h3 class="text-black">Student/Trainee</h3>
-                            <a  href="student.html"><p class="text-success">Choose Here</p></a>
-                         </div>
-                       </div>
+              <div class="row">
+                <div class="col-lg-9 offset-lg-3">
+                  <div class="body__swipe">
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper__center">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="item__review bg-snow">
+                            <div class="head_content">
+                              <div class="media">
+                                <img
+                                  class="img_av"
+                                  src="../../assets/img/persons/01.png"
+                                  alt=""
+                                />
+                                <div class="media-body">
+                                  <div class="txt">
+                                    <h3>Virginia A. Busey</h3>
+                                    <p>Tour Guider</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="content_txt">
+                              <p>
+                                " "i help people have fun when i drive them
+                                around the city show them beautiful place in the
+                                city. future.Really, really well made! Love that
+                                each component is handmade and customised. Great
+                                Work! ""
+                              </p>
+                            </div>
+                            <div class="footer_content">
+                              <div class="starts_item">
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="item__review bg-snow">
+                            <div class="head_content">
+                              <div class="media">
+                                <img
+                                  class="img_av"
+                                  src="../../assets/img/persons/02.png"
+                                  alt=""
+                                />
+                                <div class="media-body">
+                                  <div class="txt">
+                                    <h3>Jackie D. Binion</h3>
+                                    <p>Tour Guider</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="content_txt">
+                              <p>
+                                " "i help people have fun when i drive them
+                                around the city show them beautiful place in the
+                                city. future.Really, really well made! Love that
+                                each component is handmade and customised. Great
+                                Work! ""
+                              </p>
+                            </div>
+                            <div class="footer_content">
+                              <div class="starts_item">
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="item__review bg-snow">
+                            <div class="head_content">
+                              <div class="media">
+                                <img
+                                  class="img_av"
+                                  src="../../assets/img/persons/03.png"
+                                  alt=""
+                                />
+                                <div class="media-body">
+                                  <div class="txt">
+                                    <h3>Jack M. Hall</h3>
+                                    <p>Tour Guider</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="content_txt">
+                              <p>
+                                " "i help people have fun when i drive them
+                                around the city show them beautiful place in the
+                                city. future.Really, really well made! Love that
+                                each component is handmade and customised. Great
+                                Work! ""
+                              </p>
+                            </div>
+                            <div class="footer_content">
+                              <div class="starts_item">
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="item__review bg-snow">
+                            <div class="head_content">
+                              <div class="media">
+                                <img
+                                  class="img_av"
+                                  src="../../assets/img/persons/04.png"
+                                  alt=""
+                                />
+                                <div class="media-body">
+                                  <div class="txt">
+                                    <h3>Norma J. Thomas</h3>
+                                    <p>Tour Guider</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="content_txt">
+                              <p>
+                                " "i help people have fun when i drive them
+                                around the city show them beautiful place in the
+                                city. future.Really, really well made! Love that
+                                each component is handmade and customised. Great
+                                Work! ""
+                              </p>
+                            </div>
+                            <div class="footer_content">
+                              <div class="starts_item">
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="item__review bg-snow">
+                            <div class="head_content">
+                              <div class="media">
+                                <img
+                                  class="img_av"
+                                  src="../../assets/img/persons/07.png"
+                                  alt=""
+                                />
+                                <div class="media-body">
+                                  <div class="txt">
+                                    <h3>Virginia A. Busey</h3>
+                                    <p>Tour Guider</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="content_txt">
+                              <p>
+                                " "i help people have fun when i drive them
+                                around the city show them beautiful place in the
+                                city. future.Really, really well made! Love that
+                                each component is handmade and customised. Great
+                                Work! ""
+                              </p>
+                            </div>
+                            <div class="footer_content">
+                              <div class="starts_item">
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="item__review bg-snow">
+                            <div class="head_content">
+                              <div class="media">
+                                <img
+                                  class="img_av"
+                                  src="../../assets/img/persons/16.png"
+                                  alt=""
+                                />
+                                <div class="media-body">
+                                  <div class="txt">
+                                    <h3>Virginia A. Busey</h3>
+                                    <p>Tour Guider</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="content_txt">
+                              <p>
+                                "i help people have fun when i drive them around
+                                the city show them beautiful place in the city.
+                                future.Really, really well made! Love that each
+                                component is handmade and customised. Great
+                                Work! "
+                              </p>
+                            </div>
+                            <div class="footer_content">
+                              <div class="starts_item">
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                                <i class="tio star"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                 </div>
-                 <div class="col-md-6 col-lg-6">
-                    <div class="iq-card iq-card-block iq-card-stretch iq-card-height" style="background: transparent;">
-                       <div class="iq-card-body rounded p-0" style="background: url(assets/images/page-img/01.jpg) no-repeat;    background-size: cover; height: 423px;">
-                         <div class="iq-caption">
-                            <h3 class="text-black">Trainer/Teacher</h3>
-                           <a class="text-black" href="user-list.html"><p class="text-success">Choose here</p></a>
-                         </div>
-                       </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next bg-dark">
+                      <i class="tio chevron_right c-white"></i>
                     </div>
-                 </div>
-                  
-              
-               </div>
 
+                    <div class="swiper-button-prev bg-snow">
+                      <i class="tio chevron_left c-dark"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End. stories__customers -->
 
-      
+          <!-- Start Testimonial -->
+          <section class="block_testimonial gn_testimonial mt-5">
+            <div class="container">
+              <div class="row justify-content-md-center text-center">
+                <!-- <div class="banner_title_inner margin-b-10">
+                  <h1 data-aos="fade-up" data-aos-delay="0">Testimonial</h1>
+                  <p>Here is what our clients Say</p>
+                </div> -->
+                <div class="title_sections">
+                  <div class="before_title">
+                    <span class="c-lightgreen">How to help</span>
+                  </div>
+                  <h2>Save Nature's Sights and Songs</h2>
+                  <p>
+                    Your backyard is full of nature's wonders that need your
+                    support.
+                  </p>
+                </div>
+                <div class="col-md-12 col-lg-12">
+                  <div class="gbx_content">
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper_default">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="man👨 media">
+                            <img
+                              class="av_avatar rounded-circle"
+                              src="../../assets/img/persons/01.png"
+                            />
+                            <div class="media-body gq_txt">
+                              <h4 class="c-dark d-inline-block">
+                                Tommy Reaves
+                              </h4>
+                              <a class="d-inline-block" href="#">@tommyres</a>
+                              <h6 class="mb-0">CEO Founder</h6>
+                            </div>
+                          </div>
+                          <div class="content">
+                            Impressed with master class support of the team and
+                            really look forward for the future.Really, really
+                            well made! Love that each component is handmade and
+                            customised. Great Work!
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="man👨 media">
+                            <img
+                              class="av_avatar rounded-circle"
+                              src="../../assets/img/persons/07.png"
+                            />
+                            <div class="media-body gq_txt">
+                              <h4 class="c-dark d-inline-block">
+                                Tommy Reaves
+                              </h4>
+                              <a class="d-inline-block" href="#">@tommyres</a>
+                              <h6 class="mb-0">CEO Founder</h6>
+                            </div>
+                          </div>
+                          <div class="content">
+                            Impressed with master class support of the team and
+                            really look forward for the future.Really, really
+                            well made! Love that each component is handmade and
+                            customised. Great Work!
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="man👨 media">
+                            <img
+                              class="av_avatar rounded-circle"
+                              src="../../assets/img/persons/15.png"
+                            />
+                            <div class="media-body gq_txt">
+                              <h4 class="c-dark d-inline-block">
+                                Tommy Reaves
+                              </h4>
+                              <a class="d-inline-block" href="#">@tommyres</a>
+                              <h6 class="mb-0">CEO Founder</h6>
+                            </div>
+                          </div>
+                          <div class="content">
+                            Impressed with master class support of the team and
+                            really look forward for the future.Really, really
+                            well made! Love that each component is handmade and
+                            customised. Great Work!
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Add Pagination -->
+                      <div class="swiper-pagination"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End. Testimonial -->
+        </main>
+      </div>
+      <!-- [id] content -->
 
-      <!-- Wrapper END -->
-      <!-- Footer -->
-      <footer class="bg-primary iq-footer" style="margin-top: 10em;">
-         <div class="container">
-             <div class="row text-center">
-                 <div class="col-lg-4">
-                     <img src="assets/images/logo.png" width="50">
-                     <hr class="light">
-                     <p>555-555-5555</p>
-                     <p>email@myemail.com</p>
-                     <p>100 Street name</p>
-                     <P>City,State,00000</p>
-                     
-                 </div>
-                 <div class="col-lg-4">
-                     <hr class="light">
-                     <h5>Our Hours</h5>
-                     <hr class="light">
-                     <p>Monday:9am-5pm</p>
-                     <p>Saturday:10am-4pm</p>
-                     <p>Sunday:closed</p>
-     
-                 </div>
-                     <div class="col-lg-4">
-                     <hr class="light">
-                     <h5>Service Area</h5>
-                     <hr class="light">
-                     <P>City,State,00000</p>
-                         <P>City,State,00000</p>
-                             <P>City,State,00000</p>
-     
-                 </div>
-                 <div class="col-12">
-                     <hr class="light-100">
-                     Copyright 2021 <a href="#">Vito</a> All Rights Reserved.
-                     
-                 </div>
-                 
-             </div>
-             
-         </div>
-       </footer>
-      <!-- Footer END -->
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/popper.min.js"></script>
-      <script src="assets/js/bootstrap.min.js"></script>
-      
-      <!-- Counterup JavaScript -->
-      <script src="assets/js/waypoints.min.js"></script>
-      <script src="assets/js/jquery.counterup.min.js"></script>
-      <!-- Wow JavaScript -->
-      <script src="assets/js/wow.min.js"></script>
-  
-      <script src="assets/js/slick.min.js"></script>
-      <!-- Select2 JavaScript -->
-      <script src="assets/js/select2.min.js"></script>
-      <!-- Owl Carousel JavaScript -->
-      <script src="assets/js/owl.carousel.min.js"></script>
-      <!-- Magnific Popup JavaScript -->
-      <script src="assets/js/jquery.magnific-popup.min.js"></script>
-      <!-- Smooth Scrollbar JavaScript -->
-      <script src="assets/js/smooth-scrollbar.js"></script>
+      <!-- footr -->
+      <footer class="defalut-footer foot_demo3 light margin-t-12 padding-py-8">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <div class="item_about">
+                <a class="logo" href="agency.html">
+                  <img src="../../assets/img/logo.png" alt="" />
+                </a>
+                <p>
+                  Rakon is a simple, elegant, and secure way to build your
+                  bitcoin and crypto portfolio.
+                </p>
+                <div class="address">
+                  <span>1989 Don Jackson Lane</span>
+                  <span
+                    >Call us: <a href="tel:8089569599">808-956-9599</a></span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-4">
+              <div class="item_links">
+                <h4>Social</h4>
+                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#">Facebook</a>
+                <a class="nav-link" href="#">Twitter</a>
+                <a class="nav-link" href="#">Instagram</a>
+              </div>
+            </div>
 
-  
-      <script src="assets/js/animated.js"></script>
-  
-      <!-- Custom JavaScript -->
-      <script src="assets/js/custom.js"></script>
+            <div class="col-md-6 col-lg-4 mt-4 mt-lg-0">
+              <div class="item_subscribe">
+                <h4>Subscribe</h4>
+                <p>
+                  Subscribe to get the latest<br />
+                  news form us
+                </p>
+                <form class="form-row">
+                  <div class="col-md-11 form-group subscribebtn">
+                    <div class="item_input">
+                      <input
+                        type="email"
+                        class="form-control rounded-8"
+                        id="exampleInputEmail1"
+                        placeholder="Enter email address"
+                        aria-describedby="emailHelp"
+                      />
+                      <button
+                        type="button"
+                        class="btn ripple_circle scale rounded-8 btn_subscribe"
+                      >
+                        <i class="tio send"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 margin-t-1">
+              <select data-menu>
+                <option>French</option>
+                <option selected>English</option>
+                <option>Arabic</option>
+                <option>Russian</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12 text-center padding-t-4">
+            <div class="copyright">
+              <span
+                >&copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                <a href="#" target="_blank">Travel.</a>
+                All Right Reseved</span
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End. -->
+      <!-- Video Modal -->
 
-   </body>
+      <!-- Back to top with progress indicator-->
+      <div class="prgoress_indicator">
+        <svg
+          class="progress-circle svg-content"
+          width="100%"
+          height="100%"
+          viewBox="-1 -1 102 102"
+        >
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+      </div>
 
-<!-- Mirrored from iqonic.design/themes/Logo/html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Jan 2021 10:02:48 GMT -->
-</html>
+      <!-- Start Section Loader -->
+      <section class="loading_overlay">
+        <div class="loader_logo">
+          <img class="logo" src="/assets/img/logo.png" />
+        </div>
+      </section>
+      <!-- End. Loader -->
+    </div>
+    <!-- End. wrapper -->
+
+    <!-- jquery -->
+    <script src="/assets/js/jquery-3.5.0.js" type="text/javascript"></script>
+    <!-- jquery-migrate -->
+    <script
+      src="/assets/js/jquery-migrate.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- popper -->
+    <script src="/assets/js/popper.min.js" type="text/javascript"></script>
+    <!-- bootstrap -->
+    <script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <!--
+  ============
+  vendor file
+  ============
+   -->
+    <!-- particles -->
+    <script
+      src="/assets/js/vendor/particles.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- TweenMax -->
+    <script
+      src="/assets/js/vendor/TweenMax.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- ScrollMagic -->
+    <script
+      src="/assets/js/vendor/ScrollMagic.js"
+      type="text/javascript"
+    ></script>
+    <!-- animation.gsap -->
+    <script
+      src="/assets/js/vendor/animation.gsap.js"
+      type="text/javascript"
+    ></script>
+    <!-- addIndicators -->
+    <script
+      src="/assets/js/vendor/debug.addIndicators.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- Swiper js -->
+    <script
+      src="/assets/js/vendor/swiper.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- countdown -->
+    <script
+      src="/assets/js/vendor/countdown.js"
+      type="text/javascript"
+    ></script>
+    <!-- simpleParallax -->
+    <script
+      src="/assets/js/vendor/simpleParallax.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- waypoints -->
+    <script
+      src="/assets/js/vendor/waypoints.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- counterup -->
+    <script
+      src="/assets/js/vendor/jquery.counterup.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- charming -->
+    <script
+      src="/assets/js/vendor/charming.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- imagesloaded -->
+    <script
+      src="/assets/js/vendor/imagesloaded.pkgd.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- BX-Slider -->
+    <script
+      src="/assets/js/vendor/jquery.bxslider.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- Sharer -->
+    <script src="/assets/js/vendor/sharer.js" type="text/javascript"></script>
+    <!-- sticky -->
+    <script
+      src="/assets/js/vendor/sticky.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- Aos -->
+    <script src="/assets/js/vendor/aos.js" type="text/javascript"></script>
+    <!-- main file -->
+    <script src="/assets/js/main.js" type="text/javascript"></script>
+  </body>
+
+ </html>
